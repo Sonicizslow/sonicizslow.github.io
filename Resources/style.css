@@ -1,17 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     font-weight: bold;
+    font-size: 45px;
 }
 
 body {
     text-align: center;
     background-color: #808080;
     color: #00ffff;
-    margin-top: 200px;
+
 }
 
-header {
-    position: fixed;
+.nav-header {
+    position: sticky;
     background-color: darkslategray;
     width: 100%;
     font-size: 25px;
+    top: 0;
+}
+
+p {
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-size: 20px;
 }
