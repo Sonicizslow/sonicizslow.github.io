@@ -4,8 +4,14 @@ h1 {
 
 body {
     text-align: center;
-    background-color: gray;
-    color: aqua;
-    
+    background-color: #808080;
+    color: #00ffff;
+    margin-top: 200px;
 }
 
+header {
+    position: fixed;
+    background-color: darkslategray;
+    width: 100%;
+    font-size: 25px;
+}
