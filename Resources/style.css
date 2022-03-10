@@ -6,18 +6,19 @@
 h1 {
     font-weight: bold;
     font-size: 45px;
+    margin-top: 50px;
 }
 
 body {
     text-align: center;
-    background-color: #808080;
-    color: #00ffff;
+    background-color: #2b21213b;
+    color: black;
 
 }
 
 .nav-header {
     position: sticky;
-    background-color: darkslategray;
+    background-color: black;
     width: 100%;
     font-size: 25px;
     top: 0;
@@ -26,5 +27,29 @@ body {
 p {
     line-height: 25px;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 22px;
+}
+
+nav {
+    color: rgba(255, 255, 255, 0.664);
+    display: inline;
+    text-decoration: underline;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+p .welcome-statement {
+    font-size: 50px;
+
+}
+
+.text-space {
+    margin: 0 50px;
+    font-weight: 600;
+}
+
+nav:hover {
+    color: rgba(255, 255, 255, 0.808);
+    text-decoration: none;
 }
